@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #E7FFC6;
+}
+.container {
+	background-color: #FFF;
+	width: 750px;
+	height: 850px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.topoesq {
+	float: left;
+	height: 200px;
+	width: 70%;
+	background-color: #FFF;
+	background-image: url(imagens/topo.gif);
+}
+.topodir {
+	float: right;
+	height: 200px;
+	width: 30%;
+	background-color: #FFF;
+	background-image: url(imagens/i9.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.barra {
+	background-color: #0C0;
+	height: 6px;
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.barramenu {
+	background-color: #0C0;
+	height: 6px;
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+	clear:both;
+}
+.topomenu {
+	background-image: url(imagens/menu1.gif);
+	float: right;
+	height: 21px;
+	width: 170px;
+	clear: both;
+}
+.corpomenu {
+	background-color: #0C0;
+	float: right;
+	height: 200px;
+	width: 162px;
+	clear: both;
+	text-align: center;
+}
+.pemenu {
+	background-image: url(imagens/menu2.gif);
+	float: right;
+	height: 21px;
+	width: 162px;
+	clear: both;
+}
+.contcorpo {
+	float: left;
+	height: 200px;
+	width: 60%;
+	background-color: #FFF;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	color: #0C0;
+	clear: both;
+}
+a:link {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	color: #4B4744;
+	text-decoration: none;
+	font-weight: normal;
+}
+a:visited {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	color: #4B4744;
+	text-decoration: none;
+	font-weight: normal;
+}
+a:hover {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	color: #0C0;
+	text-decoration: none;
+	background-color: #4B4744;
+}
+a:active {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	color: #0C0;
+	text-decoration: none;
+	background-color: #4B4744;
+}
+.titulo {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #8DB731;
+}
+.legenda {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 10px;
+	color: #999;
+	text-align: center;
+}
+.centralizar {
+	text-align: center;
+}
+
+
+
+.enviado {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	color: #4B4744;
+	text-decoration: none;
+	font-weight: normal;
+	text-align: center;
+}
+.texto {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+	color: #4B4744;
+}
